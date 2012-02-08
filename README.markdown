@@ -3,6 +3,7 @@ Android Simple ImageView
 
 基于 WebView 的简单图片查看组件，支持双击、双指滑动放大缩小等手势
 
+![ScreenShot](http://files.gracecode.com/2012_02_08/1328698624.png)
 
 使用方法
 ========
@@ -11,7 +12,7 @@ Android Simple ImageView
 2. 修改 `AndroidManifest.xml` 文件，增加 `activity` 声明
 
 <pre>
-    <activity android:name="com.dxy.ImageViewer"></activity>
+    &lt;activity android:name="com.dxy.ImageViewer"&gt;&lt;/activity&gt;
 </pre>
 
 3. 然后就可以在需要的地方中调用
