@@ -3,7 +3,7 @@ Android Simple ImageView
 
 基于 WebView 的简单图片查看组件，支持双击、双指滑动放大缩小等手势
 
-![ScreenShot](http://files.gracecode.com/2012_02_08/1328698624.png)
+![ScreenShot](http://pic.yupoo.com/feelinglucky/BJfpUYau/medium.jpg)
 
 使用方法
 ========
