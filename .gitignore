@@ -1,0 +1,14 @@
+.DS_Store
+.svn
+/*.iml
+/.idea
+/bin/
+/gen/
+/out/
+/proguard_logs/
+/nbandroid/
+/proguard.cfg
+/build.xml
+/*.properties
+Thumbs.db
+.*.swp
