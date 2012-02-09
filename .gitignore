@@ -3,7 +3,7 @@
 /*.iml
 /.idea
 /bin/
-/gen/
+/gen/*
 /out/
 /proguard_logs/
 /nbandroid/
