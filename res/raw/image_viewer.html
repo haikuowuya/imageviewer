@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+
+            }
+
+            body {
+                background: #000;
+            }
+
+            .wrapper {
+                display: table;
+                width: 100%%;
+            }
+
+            .wrapper .cell {
+                display:table-cell;
+                vertical-align:middle;
+                width: 100%%;
+                height: 100%%;
+            }
+
+            .center {
+                background: #000;
+                text-align: center;
+            }
+
+            .center img {
+
+            }
+
+            .mask {
+                position: fixed;
+                top: 0px;
+                height: 0px;
+                z-index: 999;
+                width: 100%%;
+                height: 100%%;
+                background:red;
+                opacity: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mask" id="mask">
+        </div>
+        <div class="wrapper">
+
+            <div class="cell" id="cell">
+                <div class="center">
+                    <img src="%s" title="" />
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function adjust() {
+                var cell = document.getElementById("cell");
+                var mask = document.getElementById("mask");
+
+                cell.style.height = mask.clientHeight + "px";
+            };
+            window.onload = function() {
+                adjust();
+
+            };
+
+            window.onresize = function() {
+                adjust();
+            };
+        </script>
+
+    </body>
+</html>

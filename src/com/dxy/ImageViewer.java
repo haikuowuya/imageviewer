@@ -47,7 +47,9 @@ public class ImageViewer extends Activity {
         settings.setLoadWithOverviewMode(true);
         settings.setLightTouchEnabled(true);
         settings.setBuiltInZoomControls(true);
+        settings.setJavaScriptEnabled(true);
 
+        viewer.setInitialScale(0);
         viewer.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
         viewer.setHorizontalScrollBarEnabled(false);
         viewer.setVerticalScrollBarEnabled(false);
